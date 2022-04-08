@@ -25,7 +25,6 @@ Link: https://openreview.net/forum?id=y42xxJ_xx8 (Not the final version)
       Chuangsuwanich, Ekapol  and
       Nutanong, Sarana",
     booktitle = "Findings of the North American Chapter of the Association for Computational Linguistics: NAACL 2022"
-    month = jun,
     year = "2022",
     publisher = "Association for Computational Linguistics",
 }
