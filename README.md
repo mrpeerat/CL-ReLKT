@@ -7,7 +7,7 @@ CL-ReLKT: Cross-lingual Language Knowledge Transfer for Multilingual Retrieval Q
 ## Motivation
 Cross-Lingual Retrieval Question Answering (CL-ReQA) is concerned with retrieving answer documents or passages to a question written in a different language. A common approach to CL-ReQA is to create a multilingual sentence embedding space such that question-answer pairs across different languages are close to each other. 
 
-In this paper, we propose a novel CL-ReQA method utilizing the concept of knowledge distillation and a new cross-lingual consistency training technique to create a multilingual embedding space for ReQA.
+In this paper, our goal is to improve the robustness of multilingual sentence embedding that works with a wide range of languages, including those with a limited amount of training data. Leveraging the generalizability of knowledge distillation, we propose a Cross-Lingual Retrieval Language Knowledge Transfer} (CL-ReLKT) framework. 
 
 ## Paper
 Link: https://openreview.net/forum?id=y42xxJ_xx8 (Not the final version)
