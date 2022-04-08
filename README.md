@@ -18,7 +18,7 @@ Link: https://openreview.net/forum?id=y42xxJ_xx8 (Not the final version)
 ## Citation
 ```
 @inproceedings{limkonchotiwat-etal-2022-cl-relkt,
-    title = "{CL-ReKD}: Cross-lingual Language Knowledge Transfer for Multilingual Retrieval Question Answering",
+    title = "{CL-ReLKT}: Cross-lingual Language Knowledge Transfer for Multilingual Retrieval Question Answering",
     author = "Limkonchotiwat, Peerat  and
       Ponwitayarat, Wuttikorn  and
       Udomcharoenchaikit, Can  and
