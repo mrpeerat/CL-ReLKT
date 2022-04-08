@@ -7,7 +7,7 @@ CL-ReLKT: Cross-lingual Language Knowledge Transfer for Multilingual Retrieval Q
 ## Motivation
 Cross-Lingual Retrieval Question Answering (CL-ReQA) is concerned with retrieving answer documents or passages to a question written in a different language. A common approach to CL-ReQA is to create a multilingual sentence embedding space such that question-answer pairs across different languages are close to each other. 
 
-In this paper, our goal is to improve the robustness of multilingual sentence embedding that works with a wide range of languages, including those with a limited amount of training data. Leveraging the generalizability of knowledge distillation, we propose a Cross-Lingual Retrieval Language Knowledge Transfer (CL-ReLKT) framework. 
+In this paper, our goal is to improve the robustness of multilingual sentence embedding (yellow box) that works with a wide range of languages, including those with a limited amount of training data. Leveraging the generalizability of knowledge distillation, we propose a Cross-Lingual Retrieval Language Knowledge Transfer (CL-ReLKT) framework. 
 
 <img width="645" alt="Screen Shot 2022-04-08 at 3 29 12 PM" src="https://user-images.githubusercontent.com/21156980/162397024-ee4efd19-fb74-4eba-8428-14fc3b038fe8.png">
 
@@ -50,9 +50,6 @@ Link: https://openreview.net/forum?id=y42xxJ_xx8 (Not the final version)
 - In this step, we initilize the model's weight from Step2 and finetuning it with language knowledge transfer technique (Section2.2).
 - We use 3 terms minimization such as question(English)-question(Non-English), document-document, document-question(non-English) as shown in the figure:
 <img width="505" alt="Screen Shot 2022-04-08 at 3 26 19 PM" src="https://user-images.githubusercontent.com/21156980/162396394-6414ee8c-a43c-47aa-aeb8-041189f7d2af.png">
-
-
-Where all settings of each step are posted in the script file.
 
 ## Performance
 <img width="700" alt="Screen Shot 2022-04-08 at 3 00 54 PM" src="https://user-images.githubusercontent.com/21156980/162392211-56dd939c-b998-4cf0-9a53-c394021fbfb4.png">
