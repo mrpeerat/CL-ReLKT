@@ -2,7 +2,7 @@
 
 CL-ReLKT: Cross-lingual Language Knowledge Transfer for Multilingual Retrieval Question Answering, NAACL-2022 (Finding)
 
-<img width="974" alt="Screen Shot 2022-04-08 at 2 06 50 PM" src="https://user-images.githubusercontent.com/21156980/162382700-a56a0d6e-e56d-4f83-80bc-dd09c72f6152.png">
+<img width="600" alt="Screen Shot 2022-04-08 at 2 06 50 PM" src="https://user-images.githubusercontent.com/21156980/162382700-a56a0d6e-e56d-4f83-80bc-dd09c72f6152.png">
 
 ## Paper
 Link: https://openreview.net/forum?id=y42xxJ_xx8 (Not final version)
