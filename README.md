@@ -29,11 +29,23 @@ Link: https://openreview.net/forum?id=y42xxJ_xx8 (Not the final version)
 ```
 
 ## Model and Datasets
-Model: [CLICK HERE](https://vistec-my.sharepoint.com/:f:/g/personal/peerat_l_s19_vistec_ac_th/EqOlCAwSqI1Mg6zONNoblEsBN3O2zZCfKTpBzCWhyBHv_w?e=zcuYGd)
-Datasets: [CLICK HERE](https://vistec-my.sharepoint.com/:f:/g/personal/peerat_l_s19_vistec_ac_th/EmVNratSZBZBu4sRd5CP5SQByMVkPwBPtVVyO1gCXBN2KQ?e=zePde2)
+- Model: [CLICK HERE](https://vistec-my.sharepoint.com/:f:/g/personal/peerat_l_s19_vistec_ac_th/EqOlCAwSqI1Mg6zONNoblEsBN3O2zZCfKTpBzCWhyBHv_w?e=zcuYGd)
+- Datasets: [CLICK HERE](https://vistec-my.sharepoint.com/:f:/g/personal/peerat_l_s19_vistec_ac_th/EmVNratSZBZBu4sRd5CP5SQByMVkPwBPtVVyO1gCXBN2KQ?e=zePde2)
 Docker: Coming Soon
 
 ## How to train
+
+### Step1: Triplet loss warmup step 
+- Run [warmup.sh](1_use_finetune_warmup.sh)
+- In this step, we finetune the mUSE model with our training data (i.e., XORQA, MLQA, or XQUAD) where the anchor is the question, the positive is the answer of question, and the negative is obtained from bm25.
+
+### Step2: Triplet loss online training
+- Run [teacher.sh](2_use_finetune_teacher.sh)
+- In this step, we continute finetune the model in Step1 by using the concept of online mining to obtain the negative samples. 
+
+### Step3: Language Knowledge Transfer (Distillation)
+- Run [distillation.sh](3_use_finetune_distillation.sh)
+- In this step, we initilize the model's weight from Step2 and finetuning it with language knowledge transfer technique (Section2.2).
 
 
 ## Performance
