@@ -48,7 +48,9 @@ Link: https://openreview.net/forum?id=y42xxJ_xx8 (Not the final version)
 ### Step3: Language Knowledge Transfer (Distillation)
 - Run [distillation.sh](3_use_finetune_distillation.sh)
 - In this step, we initialize the model's weight from Step 2 and finetune it with the language knowledge transfer technique (Section 2.2).
-- We use 3 terms minimization such as question(English)-question(Non-English), document-document, document-question(non-English) as shown in the figure:<img width="505" alt="Screen Shot 2022-04-08 at 3 26 19 PM" src="https://user-images.githubusercontent.com/21156980/162396394-6414ee8c-a43c-47aa-aeb8-041189f7d2af.png">
+- We use 3 terms minimization such as question(English)-question(Non-English), document-document, document-question(non-English) as shown in the figure:
+
+<img width="505" alt="Screen Shot 2022-04-08 at 3 26 19 PM" src="https://user-images.githubusercontent.com/21156980/162396394-6414ee8c-a43c-47aa-aeb8-041189f7d2af.png">
 
 ## Performance
 <img width="700" alt="Screen Shot 2022-04-08 at 3 00 54 PM" src="https://user-images.githubusercontent.com/21156980/162392211-56dd939c-b998-4cf0-9a53-c394021fbfb4.png">
