@@ -32,7 +32,7 @@ Docker: Coming Soon
 
 
 ## Performance
-<img width="700" alt="Screen Shot 2022-04-08 at 2 58 10 PM" src="https://user-images.githubusercontent.com/21156980/162391937-9f51d66a-2a40-412a-9e22-37a5b6c970a0.png">
+<img width="700" alt="Screen Shot 2022-04-08 at 3 00 54 PM" src="https://user-images.githubusercontent.com/21156980/162392211-56dd939c-b998-4cf0-9a53-c394021fbfb4.png">
 <img width="400" alt="Screen Shot 2022-04-08 at 2 58 26 PM" src="https://user-images.githubusercontent.com/21156980/162391939-67d943fc-11b1-4fec-99be-78b971329ef7.png">
 
 
