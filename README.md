@@ -9,6 +9,8 @@ Cross-Lingual Retrieval Question Answering (CL-ReQA) is concerned with retrievin
 
 In this paper, our goal is to improve the robustness of multilingual sentence embedding that works with a wide range of languages, including those with a limited amount of training data. Leveraging the generalizability of knowledge distillation, we propose a Cross-Lingual Retrieval Language Knowledge Transfer (CL-ReLKT) framework. 
 
+<img width="645" alt="Screen Shot 2022-04-08 at 3 29 12 PM" src="https://user-images.githubusercontent.com/21156980/162397024-ee4efd19-fb74-4eba-8428-14fc3b038fe8.png">
+
 ## Paper
 Link: https://openreview.net/forum?id=y42xxJ_xx8 (Not the final version)
 
@@ -46,7 +48,7 @@ Link: https://openreview.net/forum?id=y42xxJ_xx8 (Not the final version)
 ### Step3: Language Knowledge Transfer (Distillation)
 - Run [distillation.sh](3_use_finetune_distillation.sh)
 - In this step, we initilize the model's weight from Step2 and finetuning it with language knowledge transfer technique (Section2.2).
-- We use 3 terms minimization such as question(English)-question(Non-English), document-document, document-question(non-English)
+- We use 3 terms minimization such as question(English)-question(Non-English), document-document, document-question(non-English) as shown in the figure:
 <img width="505" alt="Screen Shot 2022-04-08 at 3 26 19 PM" src="https://user-images.githubusercontent.com/21156980/162396394-6414ee8c-a43c-47aa-aeb8-041189f7d2af.png">
 
 
