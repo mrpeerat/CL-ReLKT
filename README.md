@@ -31,9 +31,10 @@ Link: https://openreview.net/forum?id=y42xxJ_xx8 (Not the final version)
 ```
 
 ## Model and Datasets
-- Model: [CLICK HERE](https://vistec-my.sharepoint.com/:f:/g/personal/peerat_l_s19_vistec_ac_th/EqOlCAwSqI1Mg6zONNoblEsBN3O2zZCfKTpBzCWhyBHv_w?e=zcuYGd)
+- Model: [CLICK HERE](https://vistec-my.sharepoint.com/:f:/g/personal/peerat_l_s19_vistec_ac_th/EqOlCAwSqI1Mg6zONNoblEsBN3O2zZCfKTpBzCWhyBHv_w?e=zcuYGd) 
 - Datasets: [CLICK HERE](https://vistec-my.sharepoint.com/:f:/g/personal/peerat_l_s19_vistec_ac_th/EmVNratSZBZBu4sRd5CP5SQByMVkPwBPtVVyO1gCXBN2KQ?e=zePde2)
 - Docker: Coming Soon
+- Just download and place in this folder 
 
 ## How to train
 
