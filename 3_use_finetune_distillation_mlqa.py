@@ -101,13 +101,13 @@ if use_mode == 'small':
                             dtype=tf.string,
                             trainable=False)
 else:
-    hub_load = hub.load(f"models/{corpus}/best_model/{use_mode}")
+    hub_load = hub.load(f"models/{corpus}/{use_mode}")
     USE_student =  hub.KerasLayer(hub_load,
                             input_shape=(),
                             output_shape = (512),
                             dtype=tf.string,
                             trainable=True)
-    hub_load_2 = hub.load(f"models/{corpus}/best_model/{use_mode}")
+    hub_load_2 = hub.load(f"models/{corpus}/{use_mode}")
     USE_teacher =  hub.KerasLayer(hub_load_2,
                             input_shape=(),
                             output_shape = (512),
