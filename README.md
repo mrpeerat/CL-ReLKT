@@ -38,6 +38,10 @@ Link: https://openreview.net/forum?id=y42xxJ_xx8 (Not the final version)
 
 ## How to train
 
+### Requirement
+- Tensorflow >= 2.5.0
+- tensorflow_text >= 2.5.0 
+
 ### Step1: Triplet loss warmup step 
 - Run [warmup.sh](1_use_finetune_warmup.sh)
 - In this step, we finetune the mUSE model with our training data (i.e., XORQA, MLQA, or XQUAD), where the anchor is the question, the positive is the answer to the question, and the negative is obtained from bm25.
