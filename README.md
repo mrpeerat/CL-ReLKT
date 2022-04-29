@@ -31,8 +31,8 @@ Link: https://openreview.net/forum?id=SGfeUGXMBZc
 ```
 
 ## Model and Datasets
-- Model: [CLICK HERE](https://vistec-my.sharepoint.com/:f:/g/personal/peerat_l_s19_vistec_ac_th/EqOlCAwSqI1Mg6zONNoblEsBN3O2zZCfKTpBzCWhyBHv_w?e=zcuYGd) 
-- Datasets: [CLICK HERE](https://vistec-my.sharepoint.com/:f:/g/personal/peerat_l_s19_vistec_ac_th/EmVNratSZBZBu4sRd5CP5SQByMVkPwBPtVVyO1gCXBN2KQ?e=zePde2)
+- Model: [CLICK HERE](https://vistec-my.sharepoint.com/:f:/g/personal/peerat_l_s19_vistec_ac_th/EqOlCAwSqI1Mg6zONNoblEsBN3O2zZCfKTpBzCWhyBHv_w) 
+- Datasets: [CLICK HERE](https://vistec-my.sharepoint.com/:f:/g/personal/peerat_l_s19_vistec_ac_th/EmVNratSZBZBu4sRd5CP5SQByMVkPwBPtVVyO1gCXBN2KQ)
 - Docker: Coming Soon
 - Just download and place in this folder 
 
