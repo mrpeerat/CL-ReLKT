@@ -79,6 +79,28 @@ def load_model(directory: str):
     model = hub.load(directory)
     return model
 
+def evaluate(dataset, key_name, topk=10):
+    matches_at1 = 0
+    accuracy = None
+    matches_at_k = Counter()
+    for item in dataset:
+        if item[key_name][0][0] == item['gt_sentence']:
+            matches_at1+=1
+        for k in range(min(topk, len(item[key_name]))):
+            if item[key_name][k][0] == item['gt_sentence']:
+                matches_at_k[k+1] +=1
+                break
+    # key starts from 1 to 10
+    for k in range(2, topk+1):      
+       
+        matches_at_k[k] += matches_at_k[k-1]
+    precision_at_k = {}
+    for k, count in matches_at_k.items():        
+        precision_at_k[k] = float(count / len(dataset))
+        
+    accuracy = float(matches_at1 / len(dataset))
+
+    return accuracy, precision_at_k
 
 def run_online_prompt_mining(dataset, prefix, model):
     result_dataset = copy.deepcopy(dataset)
