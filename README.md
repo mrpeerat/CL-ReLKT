@@ -13,7 +13,7 @@ In this paper, our goal is to improve the robustness of multilingual sentence em
 <img width="645" alt="Screen Shot 2022-04-08 at 3 29 12 PM" src="https://user-images.githubusercontent.com/21156980/162397024-ee4efd19-fb74-4eba-8428-14fc3b038fe8.png">
 
 ## Paper
-Link: https://openreview.net/forum?id=SGfeUGXMBZc
+Link: [https://aclanthology.org/2022.findings-naacl.165/](https://aclanthology.org/2022.findings-naacl.165/)
 
 ## Citation
 ```
